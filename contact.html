@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <p>Get in touch with me</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Form</h2>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="number">Phone Number:</label>
+                <input type="tel" id="number" name="number">
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+
+                <p>How did you find my website?</p>
+
+                <div class="choice">
+                    <label for="google">Google</label>
+                    <input type="radio" id="google" name="source" value="Google">
+
+                    <label for="friend">Friend</label>
+                    <input type="radio" id="friend" name="source" value="Friend">
+
+                    <label for="collage">Collage</label>
+                    <input type="radio" id="collage" name="source" value="Collage">
+                
+                </div>
+
+                <p>What is your favorite programming language?</p>
+
+                <div class="choice">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" id="html" name="language" value="HTML">
+
+                    <label for="java">Java</label>
+                    <input type="checkbox" id="java" name="language" value="Java">
+
+                    <label for="c++">++C</label>
+                    <input type="checkbox" id="c++" name="language" value="C++">
+
+                    <label for="python">Python</label>
+                    <input type="checkbox" id="python" name="language" value="Python">
+
+                </div>
+
+                <label for="topic">?What Would You like to talk about</label>
+
+                <select id="topic" name="topic">
+                    <option value="programming">Programming</option>
+                    <option value="web development">Web Development</option>
+                    <option value="computer science">Computer Science</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" cols="40"></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+            
+    
+</body>
+</html>
